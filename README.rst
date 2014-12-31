@@ -19,7 +19,7 @@ Body::
         {
             "trace_id": <16-char hex string>,
             "span_id": <16-char hex string>,
-            "parent_id": <16-char hex string>, //optional
+            "parent_span_id": <16-char hex string>, //optional
             "name": <String>,
             "annotations": [
                 {
